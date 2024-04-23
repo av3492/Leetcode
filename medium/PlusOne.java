@@ -1,3 +1,4 @@
+package medium;
 
 //66. Plus One
 class PlusOne {

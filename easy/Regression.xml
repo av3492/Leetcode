@@ -1,0 +1,29 @@
+
+<suite thread-count="10" verbose="1" name="Amazon Suite">
+<test name="Regression" thread-count="5" parallel="classes">
+<classes>
+<class name="TestCases.Login">
+<methods>
+<include name="InValidLogin"></include>
+</methods>
+</class>
+<class name="TestCases.Search">
+<methods>
+<include name="ValidSearch"></include>
+</methods>
+</class>
+<class name="TestCases.Registration">
+<methods>
+<include name="ValidRegistration"></include>
+<include name="InValidRegistration"></include>
+</methods>
+</class>
+<class name="TestCases.Cart">
+<methods>
+<include name="ValidAddToCart"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
